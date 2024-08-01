@@ -18,3 +18,9 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 30
+
+/*
+ * Set's caps word to timeout after 4 seconds
+ * https://docs.qmk.fm/features/caps_word
+ */
+#define CAPS_WORD_IDLE_TIMEOUT 4000 // 4 seconds.
